@@ -27,4 +27,13 @@ color: white;
 
 h1{
   font-family: 'Harrington-Regular';
+  margin-top: 1em;
+}
+
+#message{
+  width: 90%;
+  margin: 0 auto;
+  font-family: sans-serif, 'Calibri';
+  line-height:28px;
+  margin-bottom: 2em;
 }
