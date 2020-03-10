@@ -1,0 +1,16 @@
+body{
+color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+#container{
+  width: 90%;
+  border: 1px solid white;
+  margin: 0 auto;
+  text-align: center;
+}
