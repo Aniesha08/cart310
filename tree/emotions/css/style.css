@@ -39,7 +39,7 @@ color: white;
   h1{
     font-family: 'Harrington-Regular';
     margin-top: 1em;
-    font-size: 4em;
+    font-size: 8em;
   }
 
   #message{
@@ -48,7 +48,7 @@ color: white;
     font-family: sans-serif, 'Calibri';
     line-height:28px;
     margin-bottom: 2em;
-    font-size: 1em;
+    font-size: 4em;
   }
 }
 
