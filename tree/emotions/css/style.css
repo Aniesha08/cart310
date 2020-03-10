@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'Harrington-Regular';
     src:  url('https://aniesha08.github.io/cart310/tree/emotions/fonts/Harrington-Regular.ttf.woff') format('woff'),
@@ -12,7 +18,36 @@ body{
 color: white;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+/* DESKTOP */
+@media screen and (min-width: 700px){
+  #container{
+    width: 90%;
+    border: 1px solid white;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1{
+    font-family: 'Harrington-Regular';
+    margin-top: 1em;
+  }
+
+  #message{
+    width: 90%;
+    margin: 0 auto;
+    font-family: sans-serif, 'Calibri';
+    line-height:28px;
+    margin-bottom: 2em;
+  }
+}
+
+/*TABLET*/
+@media screen and (max-width: 1000px){
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 700px){
 
   body {
     background-color: red !important;
@@ -28,7 +63,7 @@ color: white;
   h1{
     font-family: 'Harrington-Regular';
     margin-top: 1em;
-    font-size: 3em;
+    font-size: 4em;
   }
 
   #message{
@@ -39,30 +74,4 @@ color: white;
     margin-bottom: 2em;
     font-size: 1em;
   }
-}
-
-
-
-@media only screen and (min-width: 768px) {
-
-#container{
-  width: 90%;
-  border: 1px solid white;
-  margin: 0 auto;
-  text-align: center;
-}
-
-h1{
-  font-family: 'Harrington-Regular';
-  margin-top: 1em;
-}
-
-#message{
-  width: 90%;
-  margin: 0 auto;
-  font-family: sans-serif, 'Calibri';
-  line-height:28px;
-  margin-bottom: 2em;
-}
-
 }
