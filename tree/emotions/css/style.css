@@ -16,6 +16,27 @@ color: white;
   body {
     background-color: lightblue;
   }
+
+  #container{
+    width: 90%;
+    border: 1px solid white;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1{
+    font-family: 'Harrington-Regular';
+    margin-top: 1em;
+  }
+
+  #message{
+    width: 90%;
+    margin: 0 auto;
+    font-family: sans-serif, 'Calibri';
+    line-height:28px;
+    margin-bottom: 2em;
+  }
+  
 }
 
 #container{
