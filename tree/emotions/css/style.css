@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'Harrington-Regular';
     src:  url('https://aniesha08.github.io/cart310/tree/emotions/fonts/Harrington-Regular.ttf.woff') format('woff'),
-    url('https://aniesha08.github.io/cart310/tree/emotions/fonts/Harrington-Regular.ttf.svg#Harrington-Regular') format('svg'),
+    /* url('https://aniesha08.github.io/cart310/tree/emotions/fonts/Harrington-Regular.ttf.svg#Harrington-Regular') format('svg'), */
     /* url('https://aniesha08.github.io/cart310/tree/emotions/fonts/Harrington-Regular.ttf.eot'), */
     url('https://aniesha08.github.io/cart310/tree/emotions/fonts/Harrington-Regular.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
@@ -23,7 +23,7 @@ li{
 }
 
 a img{
-  width: 256px;
+  width: 156px;
 }
 
 /* MOBILE */
