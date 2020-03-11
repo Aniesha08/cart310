@@ -22,9 +22,6 @@ li{
   display: inline;
 }
 
-a img{
-  width: 48px;
-}
 
 /* MOBILE */
 /*@media screen and (max-width: 700px){*/
@@ -54,6 +51,10 @@ a img{
     margin-bottom: 2em;
     font-size: 4em;
   }
+
+  a img{
+    width: 80px;
+  }
 }
 
 /* DESKTOP */
@@ -76,6 +77,10 @@ a img{
     font-family: sans-serif, 'Calibri';
     line-height:80px;
     margin-bottom: 2em;
+  }
+
+  a img{
+    width: 48px;
   }
 }
 
