@@ -25,13 +25,9 @@ color: white;
   and (max-device-width: 568px)
   {
 
-  body {
-    background-color: red !important;
-  }
-
   #container{
     width: 100%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 0 auto;
     text-align: center;
   }
@@ -46,7 +42,7 @@ color: white;
     width: 90%;
     margin: 0 auto;
     font-family: sans-serif, 'Calibri';
-    line-height:28px;
+    line-height: 36px;
     margin-bottom: 2em;
     font-size: 4em;
   }
